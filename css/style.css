@@ -1,0 +1,122 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 90vh;
+}
+
+.calculator {
+  height: 427.05px;
+  width: 751.3px;
+  border: 1px solid #ccc;
+}
+
+.calculator .calculator-output {
+  margin-top: 2%;
+  height: 55px;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 88%;
+  padding-right: 2%;
+  margin-left: 5%;
+  border-radius: 10px;
+  text-align: end;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator .calculator-output .answer {
+  display: block;
+  height: 40%;
+  overflow: hidden;
+}
+
+.calculator .calculator-output .calculator-input {
+  height: 60%;
+  outline: none;
+  overflow: hidden;
+}
+
+table {
+  height: 70%;
+  width: 100%;
+}
+
+table tbody tr {
+  width: 100% !important;
+  display: block;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+table tbody tr button {
+  width: 100px;
+  height: 38px;
+  border: none;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+table tbody tr #equals {
+  background-color: #4285f4;
+  color: white;
+  font-size: 30px;
+}
+
+table tbody tr #equals:hover {
+  background-color: #74a7f8;
+}
+
+table tbody tr button:hover {
+  background-color: #e7e0e0;
+}
+
+table tbody tr .symbol {
+  font-size: 20px;
+  background-color: #e0dfdf;
+}
+
+table tbody tr .symbol:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 500px) {
+  body {
+    display: block;
+  }
+  .calculator {
+    width: 100%;
+  }
+  .calculator .calculator-output {
+    font-size: 25px;
+  }
+  table {
+    width: 100%;
+  }
+  table tbody tr td {
+    width: 22%;
+    margin-right: 5px;
+  }
+  table tbody tr td button {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

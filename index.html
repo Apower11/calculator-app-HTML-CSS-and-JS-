@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator-output">
+            <span class="answer"></span>
+        <div class="calculator-input"></div>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><button class="calculator-number symbol">(</button></td>
+                    <td><button class="calculator-number symbol">)</button></td>
+                    <td><button class="calculator-number symbol" id="backspace">DEL</button></td>
+                    <td><button class="calculator-number symbol" id="clear">AC</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculator-number">1</button></td>
+                    <td><button class="calculator-number">2</button></td>
+                    <td><button class="calculator-number">3</button></td>
+                    <td><button class="calculator-number symbol" id="plus">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculator-number">4</button></td>
+                    <td><button class="calculator-number">5</button></td>
+                    <td><button class="calculator-number">6</button></td>
+                    <td><button class="calculator-number symbol">x</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculator-number">7</button></td>
+                    <td><button class="calculator-number">8</button></td>
+                    <td><button class="calculator-number">9</button></td>
+                    <td><button class="calculator-number symbol">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="calculator-number">0</button></td>
+                    <td><button class="calculator-number">.</button></td>
+                    <td><button class="calculator-number" id="equals">=</button></td>
+                    <td><button class="calculator-number symbol">÷</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.1.0/math.min.js" integrity="sha512-rCvDXOM8HOkDDjC0l9vQPhUg2n0rKlcsCtDjWG0ajYmVfjgtO6egt/RdSbKSzFCIUaE/OQRwmiU/4PmOeK3J+Q==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
